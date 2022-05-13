@@ -1,7 +1,8 @@
-import { service } from "./services";
+import { ProductService } from "./services/ProductService";
 import { url } from "./url";
+import { BASE_URL } from "./common/AppConstants";
 
 
-const services = new service()
-var data = services.service(url);
-console.log(data)
+const prodService = new ProductService(BASE_URL)
+var productList = prodService.getProducts()
+console.log("Product List : ", productList)

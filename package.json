@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/arbaznagaria/Cart#readme",
   "dependencies": {
+    "axios": "^0.27.2",
     "webpack": "^5.72.0"
   },
   "devDependencies": {
