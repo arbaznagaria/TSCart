@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/arbaznagaria/Cart.git"
+    "url": "git+https://github.com/arbaznagaria/TSCart.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/arbaznagaria/Cart/issues"
+    "url": "https://github.com/arbaznagaria/TSCart/issues"
   },
-  "homepage": "https://github.com/arbaznagaria/Cart#readme",
+  "homepage": "https://github.com/arbaznagaria/TSCart#readme",
   "dependencies": {
     "axios": "^0.27.2",
     "webpack": "^5.72.0"
