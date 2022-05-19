@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", () => {
         // var productinterval = setInterval(() => {
             const AddToCartClick = new CartFunctionality;
         var addtocart = document.getElementsByClassName("add-to-cart") as HTMLCollection;
-            AddToCartClick.AddToCart(addtocart)
+            AddToCartClick.AddToCart(addtocart,products)
         //     clearInterval(productinterval)
         // },200)
 
